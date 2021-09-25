@@ -12,4 +12,5 @@ joyevans = User.create(username: "joyevans21", password: "password")
 atorvastatin = Medication.create(name:"Atorvastatin 10 MG Tablet", description:"Tablet", dosage:"10 MG", directions:"take 1 tablet per day", count:90)
 
 prescription1 = Prescription.create(user_id: 1, medication_id: 1, reminder:"7:00")
+
 puts 'seeded'
