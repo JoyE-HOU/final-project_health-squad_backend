@@ -10,6 +10,10 @@
 joyevans = User.create(username: "joyevans21", password: "password")
 
 atorvastatin = Medication.create(name:"Atorvastatin 10 MG Tablet", description:"Tablet", dosage:"10 MG", directions:"take 1 tablet per day", count:90)
+Medication.create(name:"Amlodipine Besylate 10 MG Tablet", description:"Tablet", dosage:"10 MG", directions:"take 1 tablet per day", count:30)
+Medication.create(name:"Donepezil HCL 5 MG Tablet", description:"Tablet", dosage:"5 MG", directions:"take 1 tablet per day", count:90)
+Medication.create(name:"Letrozole 2.5 MG Tablet", description:"Tablet", dosage:"2.5 MG", directions:"take 1 tablet per day", count:30)
+Medication.create(name:"Lisinopril 20 MG Tablet", description:"Tablet", dosage:"20 MG", directions:"take 1 tablet per day", count:90)
 
 prescription1 = Prescription.create(user_id: 1, medication_id: 1, reminder:"7:00")
 
