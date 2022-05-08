@@ -26,8 +26,6 @@ Medication.create(name:"Spring Valley Glucosamine Chondroitin Dietary Supplement
 Medication.create(name:"Spring Valley Calcium Vitamin D3 800iu", description:"Tablet", dosage:"600mg", directions:"take 1 tablet twice per day", count:0)
 Medication.create(name:"Flintstones with Iron", description:"Tablet", dosage:"n/a", directions:"take 1 tablet per day", count:0)
 
-Take once a day
-
 prescription1 = Prescription.create(user_id: 1, medication_id: 1, reminder:"7:00")
 
 puts 'seeded'
